@@ -1,0 +1,28 @@
+# build output and local test material
+/build/
+/out/
+/testmedia/
+/CMakeUserPresets.json
+
+# editors
+*.user
+.vs/
+.vscode/
+
+# logs and tool output
+*.log
+
+# secrets: never commit keys or tokens
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+secrets*
+
+# projects store absolute paths of the author's machine; videos are large
+*.divaproj
+*.mp4
+*.mkv
+*.mov
+*.webm
